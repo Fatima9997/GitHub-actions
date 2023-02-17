@@ -1,0 +1,10 @@
+name: Deploy Web App
+on: push
+jobs:
+  deploy_app:
+    runs-on: ubuntu-latest
+    uses: actions/checkout@v3
+    run:
+      pwd
+      Is-lart
+    
